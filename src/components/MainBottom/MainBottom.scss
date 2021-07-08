@@ -1,20 +1,17 @@
 .mainBottom{
     display: flex;
-    height: 45%;
-    border: 1px solid black;
-    
+    flex-direction: column;
+    gap:2rem;
 
-    &__article {
-        width: 23rem;
-        height: 100%;
-        border: 1px solid black;
+    &__container{
+        display: flex;
+        gap:2rem;
     }
-}
 
-
-
-.otherStuff{
-    border: 1px solid black;
-    width: 13rem ;
-    height: 100%;
+    &__card {
+        border: 2px solid rgba(218, 220, 224, 1);
+        width: 48%;
+        height: 18rem;
+        border-radius: 0.5rem;
+    }
 }

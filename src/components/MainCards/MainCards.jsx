@@ -3,24 +3,14 @@ import './MainCards.scss'
 
 const MainCards = () => {
     return (
-        <div className="mainCards">
-            <div className="mainCards__row">
-                <div className="mainCards__card">
+        <section className="mainCards">
+                <article className="mainCards__card">
+                    
+                </article>
+                <article className="mainCards__card">
 
-                </div>
-                <div className="mainCards__card">
-
-                </div>
-            </div>
-            <div className="mainCards__row">
-                <div className="mainCards__card">
-
-                </div>
-                <div className="mainCards__card">
-            
-                </div>
-            </div>
-        </div>
+                </article>
+        </section>
     )
 }
 

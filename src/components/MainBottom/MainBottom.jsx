@@ -3,16 +3,16 @@ import './MainBottom.scss'
 
 const MainBottom = () => {
     return (
-        <div className="mainBottom">
-            <div className="mainBottom__article">
-                <h3>Headline</h3>
-                <p> Article content</p>
-                <p>Article content</p>
-            </div>
-            <div className="otherStuff">
+        <section className="mainBottom">
+            <div className="mainBottom__container">
+                <article className="mainBottom__card">
 
+                </article>
+                <article className="mainBottom__card">
+
+                </article>
             </div>
-        </div>
+        </section>
     )
 }
 
