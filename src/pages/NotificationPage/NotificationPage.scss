@@ -1,0 +1,66 @@
+@use '../../partials/typography' as *;
+
+.NotificationPage{
+
+    &__main-card{
+        border: 2px solid rgba(191, 54, 12, 1);
+        border-radius: 0.5rem;
+        padding:2rem 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+
+        &-header{
+            color:rgba(191, 54, 12, 1);
+            margin-bottom: 1.5rem;
+        }
+
+        &-text{
+            font-size: 1.5;
+            color: #3D4043;
+            margin-bottom: 1rem;
+            line-height: 1.5rem;
+            text-align: center;
+        }
+        &-subtext{
+            font-weight: $bold-weight;
+            color: #3D4043;
+        }
+
+        &-subheader{
+            color: rgba(117, 117, 117, 1);
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+            font-weight: $bold-weight;
+        }
+
+        &-question{
+            color: rgba(61, 64, 67, 1);
+            margin-bottom: 2rem;
+            font-size: 1.3rem;
+            text-align: center;
+            padding-top: 2rem;
+            margin-top: 2rem;
+            border-top: 1px solid rgba(218, 220, 224, 1);
+        }
+
+        &-button{
+            border: 1px solid rgba(56, 113, 224, 1);
+            background-color: white;
+            border-radius: 0.2rem;
+            color:rgba(56, 113, 224, 1);
+            padding:1rem;
+            width: 9rem;
+            font-weight: $bold-weight;
+            font-size: 0.8rem;
+            font-family: $secondary-font;
+        }
+
+        &-cta{
+            background-color: rgba(56, 113, 224, 1);
+            color: white;
+            margin-left: 2rem;
+        }
+    }
+}
