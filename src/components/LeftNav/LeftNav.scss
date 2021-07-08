@@ -1,0 +1,10 @@
+.left-nav{
+    list-style: none;
+    border: 1px solid black;
+    width: 15rem;
+    height:50rem;
+
+    &__item{
+        margin:2rem 0;
+    }
+}
