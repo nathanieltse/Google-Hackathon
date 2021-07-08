@@ -10,11 +10,11 @@ class App extends Component {
   state={
     page: "main",
   }
-  
+
   clickHandle = (id) => {
     if (id === 1) {
       return this.setState({page:"main"})
-    } else{
+    } else {
       return this.setState({page:"notmain"})
     }
 
@@ -25,7 +25,7 @@ class App extends Component {
       <div className="App">
         <TopNav/>
         <section className="App__body">
-          <LeftNav state={this.state.page} clickHandle={()=>this.clickHandle}/>
+          <LeftNav state={this.state.page} clickHandle={this.clickHandle}/>
           {this.state.page === "main" ?
           <MainContentPage />
           :
