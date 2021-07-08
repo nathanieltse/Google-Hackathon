@@ -1,0 +1,18 @@
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid black;
+
+    &__left{
+        display: flex;
+    }
+    
+    &right{
+        display: flex;
+    }
+
+    &__icon {
+        margin:0 1rem;
+    }
+}
