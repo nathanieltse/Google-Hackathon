@@ -6,6 +6,7 @@ import './MainContent.scss'
 const MainContent = () => {
     return (
         <div className="MainContent">
+            <p className="MainContent__header">My Dashboard</p>
             <MainCards />
             <MainBottom />
         </div>

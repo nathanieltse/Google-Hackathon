@@ -1,4 +1,14 @@
+@use '../../partials/typography' as *;
+
 .MainContent{
     width: 100%;
-    padding:3rem;
+    padding:0;
+
+    &__header{
+        font-family: $secondary-font;
+        font-size: 1.5rem;
+        border-bottom: 1px solid rgba(237, 239, 241, 1);
+        padding:1rem;
+        margin-bottom: 3rem;
+    }
 }
