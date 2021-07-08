@@ -1,10 +1,12 @@
 import React from 'react'
 import MainCards from '../MainCards/MainCards'
+import MainBottom from '../MainBottom/MainBottom'
 
-function MainContent() {
+const MainContent = () => {
     return (
         <div>
             <MainCards />
+            <MainBottom />
         </div>
     )
 }

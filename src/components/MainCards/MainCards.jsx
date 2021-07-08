@@ -1,7 +1,7 @@
 import React from 'react'
 import './MainCards.scss'
 
-function MainCards() {
+const MainCards = () => {
     return (
         <div className="mainCards">
             <div className="mainCards__row">
@@ -9,7 +9,7 @@ function MainCards() {
 
                 </div>
                 <div className="mainCards__card">
-            
+
                 </div>
             </div>
             <div className="mainCards__row">
