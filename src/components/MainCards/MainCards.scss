@@ -3,12 +3,17 @@
     flex-direction: column;
     margin:0 3rem;
 
+    &__card1{
+         border: 2px solid rgba(218, 220, 224, 1);
+    }
 
     &__card{
-        border: 2px solid rgba(218, 220, 224, 1);
         border-radius: 0.5rem;
-        height: 18rem;
-        width: 100%;
+        width: 70rem;
         margin-bottom:5rem;
+        margin:2rem auto;
     }
+}
+.image1{
+    margin-left:7rem;
 }

@@ -6,12 +6,11 @@ import chart2 from '../../asset/images/Default-State.jpg'
 const MainCards = () => {
     return (
         <section className="mainCards">
-                <article className="mainCards__card1">
-                    <p>Most Vulnerable Data</p>
-                    <img className="image" src={chart1} src='chart'></img>
+                <article className="mainCards__card mainCards__card1">
+                    <img className="image" src={chart1}></img>
                 </article>
-                <article className="mainCards__card2">
-                    <img src={chart2} alt='chart' />
+                <article className="mainCards__card">
+                    <img  className="image1"src={chart2} alt='chart' />
                 </article>
         </section>
     )
