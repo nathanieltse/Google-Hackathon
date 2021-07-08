@@ -1,3 +1,5 @@
+@use '../../partials/typography' as *;
+
 .mainBottom{
     display: flex;
     flex-direction: column;
@@ -9,10 +11,48 @@
         gap:2rem;
     }
 
-    &__card {
+    &__card1 {
         border: 2px solid rgba(218, 220, 224, 1);
         width: 48%;
-        height: 18rem;
+        height: 28rem;
         border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__image{
+        height: 15rem;
+        width: 15rem;
+    }
+
+    &__heading{
+        font-size: 22px;
+        line-height: 24px;
+        font-family: $secondary-font;
+        padding-top: 1rem;
+    }
+
+    &__text{
+        font-size: 14px;
+        line-height: 20px;
+        font-family: $primary-font;
+        font-weight: 700;
+        padding-top: .75rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    &__footer{
+        display: flex;
+    }
+
+    &__footer-text{
+        font-size: 14px;
+        line-height: 20px;
+        font-family: $primary-font;
+        font-weight: 700;
+        color: #3B7AF0;
+        padding-top: 2rem;
     }
 }
