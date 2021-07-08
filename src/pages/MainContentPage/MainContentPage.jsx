@@ -1,7 +1,7 @@
 import React from 'react'
-import MainCards from '../MainCards/MainCards'
-import MainBottom from '../MainBottom/MainBottom'
-import './MainContent.scss'
+import MainCards from '../../components/MainCards/MainCards'
+import MainBottom from '../../components/MainBottom/MainBottom'
+import './MainContentPage.scss'
 
 const MainContent = () => {
     return (

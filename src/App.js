@@ -1,7 +1,7 @@
 import TopNav from './components/TopNav/TopNav';
 import LeftNav from './components/LeftNav/LeftNav';
 import RightNav from './components/RightNav/RightNav';
-import MainContent from './components/MainContent/MainContent';
+import MainContentPage from './pages/MainContentPage/MainContentPage';
 import './App.scss';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <TopNav/>
       <section className="App__body">
         <LeftNav/>
-        <MainContent />
+        <MainContentPage />
         <RightNav/>
       </section>
     </div>
