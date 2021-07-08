@@ -1,10 +1,43 @@
 .left-nav{
     list-style: none;
-    border: 1px solid black;
+    border-right: 1px solid rgba(237, 239, 241, 1);
     width: 15rem;
-    height:50rem;
+    height:70rem;
+    padding:2rem 1rem 2.5rem 0;
 
     &__item{
-        margin:2rem 0;
+        display: flex;
+        margin:0.5rem 0;
+        padding:0.5rem 1rem;
+        cursor: pointer;
+
+
+        &--selected{
+            background-color: rgba(66, 133, 244, 1);
+            border-top-right-radius:5rem;
+            border-bottom-right-radius:5rem;
+        }
+
+    }
+
+    &__item-icon{
+        width: 1.1rem;
+        margin-right:2rem
+    }
+
+    &__item-text{
+        width: 100%;
+        height: 100%;
+        font-size: 0.875rem;
+        color: rgba(65, 66, 68, 1);
+
+        &--selected{
+            color: white;
+        }
+    }
+
+    &__item-number{
+        margin-left: auto;
+        font-size: 0.875rem;
     }
 }

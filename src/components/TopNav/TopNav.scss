@@ -2,17 +2,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border:1px solid black;
+    padding:0.5rem 2rem 1rem;
+    border-bottom:1px solid rgba(237, 239, 241, 1);
 
     &__left{
         display: flex;
     }
+
+    &__logo{
+        margin-right: 1rem;
+        height:2rem
+    }
+
+    &__page-name{
+        color: rgba(96, 99, 103, 1);
+    }
     
-    &right{
+    &__right{
         display: flex;
+        align-items: center;
     }
 
     &__icon {
-        margin:0 1rem;
+        margin-right:2rem;
+        height:2rem
+    }
+
+    &__avatar{
+        height:2.5rem
     }
 }

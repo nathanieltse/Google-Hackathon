@@ -1,4 +1,8 @@
+@use './partials/typography' as *;
+
 *{
   margin:0;
   box-sizing: border-box;
+  font-family: $primary-font;
+  font-weight: $normal-weight;
 }
