@@ -1,0 +1,20 @@
+.mainBottom{
+    display: flex;
+    height: 45%;
+    border: 1px solid black;
+    
+
+    &__article {
+        width: 23rem;
+        height: 100%;
+        border: 1px solid black;
+    }
+}
+
+
+
+.otherStuff{
+    border: 1px solid black;
+    width: 13rem ;
+    height: 100%;
+}

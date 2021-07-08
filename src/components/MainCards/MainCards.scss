@@ -1,0 +1,15 @@
+.mainCards {
+    display: flex;
+    flex-direction: column;
+
+    &__row{
+        display: flex;
+    }
+
+    &__card{
+        border: 1px solid black;
+        height: 13rem;
+        width: 17rem;
+        margin: .5rem;
+    }
+}
